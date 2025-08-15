@@ -47,4 +47,25 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.  
 
 ---
+## 📂 Repository Structure
 
+data-warehouse-project/
+│
+├── datasets/ # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/ # Project documentation and architecture details
+│ ├── etl.drawio # Draw.io file shows ETL techniques and methods
+│ ├── data_architecture.drawio # Draw.io file showing the project's architecture
+│ ├── data_catalog.md # Dataset catalog with field descriptions and metadata
+│ ├── data_flow.drawio # Draw.io file for the data flow diagram
+│ ├── data_models.drawio # Draw.io file for data models (star schema)
+│ ├── naming-conventions.md # Naming guidelines for tables, columns, and files
+│
+├── scripts/ # SQL scripts for ETL and transformations
+│ ├── bronze/ # Scripts for extracting and loading raw data
+│ ├── silver/ # Scripts for cleaning and transforming data
+│ ├── gold/ # Scripts for creating analytical models
+│
+├── tests/ # Test scripts and data quality checks
+│
+├── README.md # Project overview and instructions
